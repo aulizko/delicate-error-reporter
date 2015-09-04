@@ -4,7 +4,7 @@
   "description": "A polite error reporter which delicately awaits your attention at the corner of the screen",
   "main": "lib/index.js",
   "scripts": {
-    "build": "NODE_ENV=production babel src -d lib",
+    "build": "NODE_ENV=production babel -e 0 src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/aulizko/delicate-error-reporter#readme",
   "dependencies": {
     "error-stack-parser": "^1.2.2",
-    "react-classy": "^0.3.5"
+    "j2c": "^0.7.3"
   },
   "peerDependencies": {
     "react": ">=0.13.2 || ^0.14.0-beta3"

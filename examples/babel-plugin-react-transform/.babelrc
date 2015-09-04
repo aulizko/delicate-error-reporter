@@ -10,7 +10,7 @@
       "locals": ["module"]
     }, {
       "target": "react-transform-catch-errors",
-      "imports": ["react", "../../src/index.js"]
+      "imports": ["react", "delicate-error-reporter"]
     }]
   }
 }
