@@ -1,0 +1,29 @@
+{
+  "name": "delicate-error-reporter-babel-plugin-react-transform-example",
+  "version": "1.0.0",
+  "description": "Using delicate-error-reporter with babel-plugin-react-error-catcher",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aulizko/delicate-error-reporter/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^5.4.7",
+    "babel-eslint": "^3.1.9",
+    "babel-loader": "^5.1.2",
+    "babel-plugin-react-transform": "^1.0.1",
+    "express": "^4.13.3",
+    "react-transform-catch-errors": "^0.1.1",
+    "react-transform-webpack-hmr": "^0.1.2",
+    "webpack": "^1.9.6",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^0.14.0-beta3",
+    "react-dom": "^0.14.0-beta3"
+  }
+}

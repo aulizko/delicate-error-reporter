@@ -1,0 +1,7 @@
+node_modules
+lib
+.DS_Store
+._*
+thumbs.db
+npm-debug.log
+converage

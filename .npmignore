@@ -1,0 +1,8 @@
+src/
+.eslintrc
+.editorconfig
+.gitignore
+.jscsrc
+.idea
+.travis.yml
+coverage/

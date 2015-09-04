@@ -1,0 +1,38 @@
+{
+  "name": "delicate-error-reporter",
+  "version": "0.0.1",
+  "description": "A polite error reporter which delicately awaits your attention at the corner of the screen",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aulizko/delicate-error-reporter.git"
+  },
+  "keywords": [
+    "errors",
+    "error",
+    "reporter",
+    "react-transform",
+    "reactjs",
+    "react-component"
+  ],
+  "author": "Alexander Ulizko <alexander@ulizko.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aulizko/delicate-error-reporter/issues"
+  },
+  "homepage": "https://github.com/aulizko/delicate-error-reporter#readme",
+  "dependencies": {
+    "error-stack-parser": "^1.2.2",
+    "react-classy": "^0.3.5"
+  },
+  "peerDependencies": {
+    "react": ">=0.13.2 || ^0.14.0-beta3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
