@@ -1,6 +1,6 @@
 {
   "name": "delicate-error-reporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A polite error reporter which delicately awaits your attention at the corner of the screen",
   "main": "lib/index.js",
   "scripts": {
