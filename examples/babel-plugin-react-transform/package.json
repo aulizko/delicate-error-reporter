@@ -15,7 +15,7 @@
     "babel-eslint": "^3.1.9",
     "babel-loader": "^5.1.2",
     "babel-plugin-react-transform": "^1.0.1",
-    "delicate-error-reporter": "0.0.3",
+    "delicate-error-reporter": "^0.0.3",
     "express": "^4.13.3",
     "react-transform-catch-errors": "^0.1.1",
     "react-transform-webpack-hmr": "^0.1.2",
