@@ -5,7 +5,7 @@
 
 This one displays error *unobtrusively*. It won't jump on you.
 
-![out](https://cloud.githubusercontent.com/assets/4025/9697088/3139c1de-5388-11e5-8227-41cc35d28309.gif)
+![out](https://cloud.githubusercontent.com/assets/4025/9697171/46fb6132-538b-11e5-8890-4afa75fcc372.gif)
 
 
 ## Usage
