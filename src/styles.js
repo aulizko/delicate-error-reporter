@@ -2,6 +2,7 @@ import j2c from 'j2c';
 
 export default j2c.scoped({
   'flag': {
+	'z-index': '99999',
     'position': 'fixed',
     'font-size': '16px',
     'bottom': '10px',
@@ -38,6 +39,7 @@ export default j2c.scoped({
     'color': '#333',
     'border': '10px solid #FF9966',
     'overflow-y': 'auto'
+	'z-index': '99999'
   },
   'hidden': {
     'display': 'none'
