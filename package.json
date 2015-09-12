@@ -30,7 +30,7 @@
     "j2c": "^0.7.3"
   },
   "peerDependencies": {
-    "react": ">=0.13.2 || ^0.14.0-beta3"
+    "react": ">=0.13.2 || ^0.14.0-rc1"
   },
   "devDependencies": {
     "babel": "^5.8.23"
