@@ -4,6 +4,7 @@
   "description": "A polite error reporter which delicately awaits your attention at the corner of the screen",
   "main": "lib/index.js",
   "scripts": {
+		"prepublish": "npm run build",
     "build": "NODE_ENV=production babel -e 0 src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

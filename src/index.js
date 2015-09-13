@@ -36,7 +36,7 @@ class DelicateErrorReporter extends Component {
             <a href={ link } className={ styles.fileLink }>{ link }</a>
           </div>
         </div>
-      )
+      );
     });
   }
 
@@ -46,14 +46,16 @@ class DelicateErrorReporter extends Component {
         <style>{ styles.valueOf() }</style>
         <div
             className={ this.state.beQuiet ? styles.flag : styles.hidden }
-            onClick={() => { this.changeBehavior() }}>
+            onClick={ ::this.changeBehavior }>
 
           <span className={ styles.flagContent }>!</span>
         </div>
-        <div className={ this.state.beQuiet ? styles.hidden : styles.container }>
+        <div className={ this.state.beQuiet ?
+					styles.hidden :
+					styles.container }>
           <a
             href="#"
-            onClick={ () => { this.changeBehavior() } }
+            onClick={ ::this.changeBehavior }
             className={ styles.closeButton }
             dangerouslySetInnerHTML={ { __html: '&times;' } } />
           <h1 className={ styles.message }>
@@ -63,7 +65,7 @@ class DelicateErrorReporter extends Component {
           <div className={ styles.stack }>{ this.renderFrames() }</div>
         </div>
       </div>
-    )
+    );
   }
 }
 
