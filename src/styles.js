@@ -38,8 +38,8 @@ export default j2c.scoped({
     'background': 'white',
     'color': '#333',
     'border': '10px solid #FF9966',
-    'overflow-y': 'auto'
-	'z-index': '99999'
+    'overflow-y': 'auto',
+	  'z-index': '99999'
   },
   'hidden': {
     'display': 'none'
